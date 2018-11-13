@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
 import marked from 'marked';
 
+import "./Blogs.css"
+
 export default class Blog extends Component {
     constructor(props) {
 
         super(props);
 
         this.state = {
+            title: "",
             content: "# Hello World \n ## Let me in Bobby \n",
-            title: ""
+            date: "",
+            author: ""
         };
     }
 
@@ -26,6 +30,8 @@ export default class Blog extends Component {
     render() {
         return (
             <div className="Blog" dangerouslySetInnerHTML={this.getMarkdownText()} />
+
+
         );
     }
 }

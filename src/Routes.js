@@ -3,8 +3,7 @@ import { Route, Switch } from 'react-router-dom'
 
 //Routes
 import Home from './containers/Home';
-import BlogRoutes from './containers/BlogRoutes';
-import Blog from './containers/Blog';
+import Blog from './containers/Blogs';
 import Portfolio from './containers/Portfolio'
 import NotFound from './containers/NotFound';
 

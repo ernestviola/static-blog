@@ -16,6 +16,14 @@ class App extends Component {
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
+          <Nav>
+            <NavItem>
+              <Link to="/blog">Blog</Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/portfolio">Portfolio</Link>
+            </NavItem>
+          </Nav>
         </Navbar>
         <Routes />
       </div>
