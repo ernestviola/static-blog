@@ -27,6 +27,9 @@ class App extends Component {
           </Navbar.Collapse>
         </Navbar>
         <Routes />
+        <div className="Footer">
+          Hello my footer
+        </div>
       </div>
     );
   }
