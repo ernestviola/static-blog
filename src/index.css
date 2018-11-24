@@ -2,6 +2,10 @@ html, body {
 height: 100%;
 }
 
+h1,h2,h3,h4,h5 {
+  color: #2892D7;
+}
+
 body {
   margin: 0;
   padding: 0;

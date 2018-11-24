@@ -2,8 +2,13 @@
     height: 100%;
 }
 
-.Side {
-    border-style: solid;
+.Side-Content {
+    border-style: none;
     padding-right: 0px;
     padding-left: 0px;
+}
+
+.Main-Content {
+    border-style: none;
+    height: 300px;
 }
