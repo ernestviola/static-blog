@@ -20,15 +20,15 @@ nav.navbar, .navbar-default {
 }
 
 .navbar-default .navbar-toggle {
-  border-color: black;
+  border-color: white;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: black;
+  background-color: white;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: black;
+  background-color: white;
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
@@ -37,6 +37,6 @@ nav.navbar, .navbar-default {
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: black;
+  color: white;
   background-color: transparent;
 }
