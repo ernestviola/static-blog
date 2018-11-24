@@ -1,5 +1,7 @@
 nav.navbar, .navbar-default {
   background-color: #2892D7 !important;
+  position: relative;
+  max-height: 70px;
 }
 
 .navbar-default {
