@@ -2,13 +2,19 @@
     height: 100%;
 }
 
+.Side-Content > div {
+    border-style: solid;
+    margin-bottom: 15px;
+
+}
+
 .Side-Content {
-    border-style: none;
     padding-right: 0px;
     padding-left: 0px;
 }
 
 .Main-Content {
-    border-style: none;
+    margin-bottom: 10px;
+    border-style: solid;
     height: 300px;
 }
