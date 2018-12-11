@@ -1,3 +1,7 @@
+# Portfolio
+
+## Description
+
 A basic personal portfolio page that uses React ReactBootstrap and Amazon S3 for cheap hosting.
 
 ## Available Scripts
