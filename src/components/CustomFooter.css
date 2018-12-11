@@ -1,9 +1,14 @@
-.footer {
-   position: fixed;
+.Footer {
+   margin: 0;
    left: 0;
-   bottom: 0;
+   bottom: 0 !important;
    width: 100%;
-   color: white;
    text-align: center;
-   height: 70px;
+   height: 100px;
+   color: white;
+   background: #2892D7 !important;
+}
+
+.Inner-Footer {
+
 }

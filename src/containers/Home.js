@@ -9,9 +9,11 @@ export default class Home extends Component {
                 <Row>
                     <Col className="Main-Content" xs={12} md={8}>
                         <h2>Welcome Home</h2>
+                        <p>I am currently looking for a position as a software engineer. I enjoy problem solving and helping others. Some of my interests include machine learning and application design.</p>
                     </Col>
-                    <Col className="Side-Content" xs={12} md={4}>
-                        <Col xs={12} sm={6} md={12}>
+                    <Col md={1}></Col>
+                    <Col className="Side-Content" xs={12} md={3}>
+                        <Col className="Side-Inner-Content" xs={12} sm={6} md={12}>
                             <h3>Projects</h3>
                             <ul>
                                 <li>Flys</li>
@@ -22,7 +24,8 @@ export default class Home extends Component {
                                 <li>Bash shell project</li>
                             </ul>
                         </Col>
-                        <Col xs={12} sm={6} md={12}>
+                        <Col sm={1}></Col>
+                        <Col className="Side-Inner-Content" xs={12} sm={5} md={12}>
                             <h3>Tasks</h3>
                             <ul>
                                 <li>Add an image and description to Home's Main Content</li>

@@ -2,7 +2,7 @@
     height: 100%;
 }
 
-.Side-Content > div {
+.Side-Inner-Content {
     border-style: solid;
     margin-bottom: 15px;
 

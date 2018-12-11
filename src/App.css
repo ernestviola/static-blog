@@ -25,7 +25,7 @@
 
 .Content {
   /* margin-top: 70px; */
-  min-height: calc(100vh - 140px);
+  min-height: 80vh;
 }
 
 @keyframes App-logo-spin {
