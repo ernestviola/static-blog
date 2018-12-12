@@ -1,5 +1,32 @@
-.Home {
-    height: 100%;
+.header {
+    height: 100vh;
+    background-image: url('../images/blurred-background-coffee-cup-computer-908284.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1{
+ color: blue ;
+}
+
+.description p{
+ color:goldenrod;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid blue;
+ background:blue;
+ color:#fff;
 }
 
 .Side-Inner-Content {

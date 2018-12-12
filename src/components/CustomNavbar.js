@@ -6,7 +6,7 @@ import './CustomNavbar.css';
 export default class CustomNavbar extends Component {
     render() {
         return (
-            <Navbar staticTop collapseOnSelect>
+            <Navbar staticTop collapseOnSelect fixedTop="True">
                 <Navbar.Header>
                     <Navbar.Brand>
                         <Link to="/" className="Brand">Ernest.</Link>
