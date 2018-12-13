@@ -45,3 +45,7 @@
     border-style: solid;
     height: 300px;
 }
+
+.about {
+    height: 100vh;
+}

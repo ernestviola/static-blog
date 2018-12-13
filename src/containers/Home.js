@@ -20,20 +20,22 @@ export default class Home extends Component {
                     </div>
 
                 </header>
-                <Grid>
-                    <Row>
-                        <Col lg={4} md={4} sm={12}>
-                            <Image src={AboutPicture} responsive />
-                            <span className="text-justify">Software Engineer</span>
-                        </Col>
-                        <Col lg={8} md={8} sm={12}>
-                            <h3>Ernest Viola</h3>
-                            <p>
-                                Hello my name is Ernest and I am a computer scientist with an emphasis on application development and machine learning.
+                <div className="about">
+                    <Grid>
+                        <Row>
+                            <Col lg={4} md={4} sm={12}>
+                                <Image src={AboutPicture} responsive />
+                                <span className="text-justify">Software Engineer</span>
+                            </Col>
+                            <Col lg={8} md={8} sm={12}>
+                                <h3>Ernest Viola</h3>
+                                <p>
+                                    Hello my name is Ernest and I am a computer scientist with an emphasis on application development and machine learning.
                             </p>
-                        </Col>
-                    </Row>
-                </Grid>
+                            </Col>
+                        </Row>
+                    </Grid>
+                </div>
                 <Grid>
                     <Row>
                         <Col className="Main-Content" xs={12} md={8}>
