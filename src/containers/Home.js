@@ -7,36 +7,19 @@ export default class Home extends Component {
     render() {
         return (
             <div>
-                <header className="header">
-                    <div className="overlay">
-                        <div className="container">
-                            <div className="description">
-                                <h1>    Hello ,Welcome To My official Website
-    <p>    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
-                                    <button class="btn btn-outline-secondary btn-lg">See more</button>   </h1>
-                            </div>
-                        </div>
-                    </div>
-
-                </header>
-                <div className="about">
-                    <Grid>
-                        <Row>
-                            <Col lg={4} md={4} sm={12}>
-                                <Image src={AboutPicture} responsive />
-                                <span className="text-justify">Software Engineer</span>
-                            </Col>
-                            <Col lg={8} md={8} sm={12}>
-                                <h3>Ernest Viola</h3>
-                                <p>
-                                    Hello my name is Ernest and I am a computer scientist with an emphasis on application development and machine learning.
-                            </p>
-                            </Col>
-                        </Row>
-                    </Grid>
-                </div>
                 <Grid>
+                    <Row>
+                        <Col lg={4} md={4} sm={12}>
+                            <Image src={AboutPicture} responsive />
+                            <span className="text-justify">Software Engineer</span>
+                        </Col>
+                        <Col lg={8} md={8} sm={12}>
+                            <h3>Ernest Viola</h3>
+                            <p>
+                                Hello my name is Ernest and I am a computer scientist with an emphasis on application development and machine learning.
+                            </p>
+                        </Col>
+                    </Row>
                     <Row>
                         <Col className="Main-Content" xs={12} md={8}>
                             <h2>Welcome Home</h2>

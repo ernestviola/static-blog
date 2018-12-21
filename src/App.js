@@ -12,7 +12,6 @@ class App extends Component {
         <div className="Content">
           <Routes />
         </div>
-        <hr />
         <CustomFooter />
       </div>
     );

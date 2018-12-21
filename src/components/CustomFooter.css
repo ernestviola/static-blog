@@ -1,14 +1,4 @@
 .Footer {
-   margin: 0;
-   left: 0;
-   bottom: 0 !important;
-   width: 100%;
-   text-align: center;
-   height: 100px;
-   color: white;
    background: #2892D7 !important;
-}
-
-.Inner-Footer {
-
+   height: 100px;
 }
