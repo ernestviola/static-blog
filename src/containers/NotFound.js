@@ -1,11 +1,6 @@
 import React, { Component } from 'react'
 
-export default class componentName extends Component {
-    render() {
-        return (
-            <div>
-
-            </div>
-        )
-    }
-}
+export default () =>
+    <div className="NotFound">
+        <h3>Sorry, page not found!</h3>
+    </div>

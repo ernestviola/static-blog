@@ -9,9 +9,6 @@ class App extends Component {
       <div className="App">
         <CustomNavbar />
         <Routes />
-        <header className="App-header">
-        </header>
-
       </div>
     );
   }
