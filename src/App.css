@@ -1,7 +1,11 @@
 .App {
-  text-align: center;
+  text-align: left;
   min-height: 100vh;
   background-color: #282c34;
+  position: relative;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .App-header {

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import CustomNavbar from './components/customNavbar';
+import CustomFooter from './components/customFooter';
 import Routes from './Routes';
 import './App.css';
 
@@ -8,7 +9,13 @@ class App extends Component {
     return (
       <div className="App">
         <CustomNavbar />
-        <Routes />
+        <div className="container">
+          <Routes />
+        </div>
+
+
+
+        <CustomFooter />
       </div>
     );
   }
