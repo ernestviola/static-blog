@@ -1,0 +1,12 @@
+.Footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+    color: white;
+}
+
+.FooterExternalLinks > div > a {
+    text-decoration: none;
+}
