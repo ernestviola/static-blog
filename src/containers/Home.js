@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Button } from 'react-bootstrap';
 import './Home.css';
-import resume from '../images/Resume.pdf';
 export default class componentName extends Component {
     render() {
         return (
