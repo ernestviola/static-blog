@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Projects extends Component {
     render() {
         return (
             <div className="Projects">
-                <h2>This is where all of my projects go.</h2>
                 <div>
                     <h3>Projects</h3>
                     <ul>
@@ -46,7 +46,14 @@ export default class Projects extends Component {
                     <h3>Games</h3>
                     <ul>
                         <li>
-                            Fireman Catch
+                            <h3>
+                                <Link to="/games/firemancatch">
+                                    Fireman Catch
+                                </Link>
+                            </h3>
+                            <p>
+                                A video game made in unity for a game development class at San Diego State University
+                            </p>
                         </li>
                     </ul>
                 </div>
