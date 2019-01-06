@@ -39,6 +39,16 @@ export default class Projects extends Component {
                                 However because of all of the extra backend work I found that the website became slow and impracticle.
                             </p>
 
+                            <p>
+                                For my second iteration I wanted to use AWS lambda instead in order to cut on high development costs. This proved to work but there were issues with how lambda would talk to the data.
+                            </p>
+                            <p>
+                                An idea that came out of this however was to create a lambda function that would update a static version of the website and would update the S3 storage system when I would do a CRUD action on the database. I plan to revisit this idea but at this point I just wanted to get something out.
+                            </p>
+                            <p>
+                                The current iteration which you are looking at uses only html and javascript (REACT) and is hosting on S3 so costs are little to none.
+                            </p>
+
                         </li>
                     </ul>
                 </div>
