@@ -5,8 +5,13 @@
     height: 120px;
     width: 100%;
     color: white;
+    background-color: black;
 }
 
 .FooterExternalLinks > div > a {
     text-decoration: none;
+}
+
+.FooterExternalLinks {
+    margin-top: 20px;
 }
