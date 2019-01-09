@@ -2,3 +2,17 @@
     text-align: left;
     color: white;
 }
+
+
+
+.introduction {
+    overflow: hidden;
+}
+
+.introduction img {
+    margin-right: 15px;
+    float: left;
+    object-fit: cover;
+    width: 290px;
+    height: 290px;
+}
