@@ -10,7 +10,7 @@ export default class CustomNavbar extends Component {
             <Navbar>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <Link to="/" className="Brand" style={{ color: "white" }}>Ernest.</Link>
+                        <Link to="/" className="Brand">Ernest.</Link>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>

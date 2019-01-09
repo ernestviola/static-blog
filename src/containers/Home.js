@@ -52,18 +52,17 @@ export default class Home extends Component {
     render() {
         return (
             <div className="Home">
+                <div className="Quote">
+                    <h2>{this.state.currentQuote}</h2>
+                </div>
+
                 <div className="introduction">
                     <img src={Graduation}></img>
-                    <span className="title">Hi, I'm Ernest.</span> <br />
+                    <h1>Hi, I'm Ernest</h1>
                     <span className="description">I'm an adventurer who's pationate about what the future holds. Currently I'm a volunteer who helps teach computer science to high school students. But I've always been a tinkerer and explorer at heart. I'm looking to propel my career into the world of software development and data sciences.</span>
                 </div>
 
                 <Row>
-                    <Col sm={6} md={8}>
-                        <div className="Quote">
-                            <h2>{this.state.currentQuote}</h2>
-                        </div>
-                    </Col>
                     <Col sm={6} md={4}>
                         <div>
                             <h2>Contact Me</h2>
