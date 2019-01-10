@@ -2,6 +2,10 @@
     background-color: rgb(105, 0, 0);
     border-color: rgb(105, 0, 0);
 }
+.navbar {
+    border: none;
+    border-radius: 0;
+}
 
 .Brand {
     color: white !important;
