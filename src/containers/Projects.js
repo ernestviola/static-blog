@@ -27,7 +27,7 @@ export default class Projects extends Component {
                         </li>
                         <li>
                             <h3>
-                                <a href="https://github.com/ernestviola/static-blog" target="blank_" rel="noopener noreferrer">Website</a>
+                                <a href="https://github.com/ernestviola/static-blog" target="blank_" rel="noopener noreferrer">ernestviola.com</a>
                             </h3>
                             <p>This website took me a bit of time to finally finish. This is my 3rd iteration of this site and definitley not the last. I'm continuously working on improving the styles and functionality of this site.
 

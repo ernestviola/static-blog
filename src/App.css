@@ -1,9 +1,10 @@
 .App {
   text-align: left;
   min-height: 100vh;
-  background-color: #282c34;
+  background-color: light-grey;
+  /* background-color: #282c34; */
   position: relative;
-  color: white;
+  color: black;
   margin-left: auto;
   margin-right: auto;
 }
@@ -29,4 +30,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.content {
+  padding-bottom: 200px;
 }
