@@ -56,7 +56,7 @@ export default class Home extends Component {
                     <h2>{this.state.currentQuote}</h2>
                 </div>
 
-                <div className="introduction">
+                <div className="Introduction">
                     <img src={Graduation}></img>
                     <h1>Hi, I'm Ernest</h1>
                     <span className="description">I'm an adventurer who's pationate about what the future holds. Currently I'm a volunteer who helps teach computer science to high school students. But I've always been a tinkerer and explorer at heart. I'm looking to propel my career into the world of software development and data sciences.</span>

@@ -8,8 +8,9 @@
     margin-bottom: 0;
 }
 
-.Brand {
+.Brand, .navbar-brand{
     color: white !important;
+    font-size: 50px;
 }
 
 .navbar-default .navbar-nav > li > a {

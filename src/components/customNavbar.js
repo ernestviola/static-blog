@@ -5,17 +5,35 @@ import resume from '../images/Resume.pdf';
 import './customNavbar.css';
 
 export default class CustomNavbar extends Component {
+    constructor(props) {
+        super(props);
+        this.handleSelect = this.handleSelect.bind(this);
+
+        this.state = {
+            key: null
+        };
+    }
+
+
+    handleSelect(key) {
+        // alert(`selected ${key}`);
+        if (key == 2) return;
+        this.setState({ key });
+    }
+
+
     render() {
         return (
             <Navbar>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <Link to="/" className="Brand">Ernest.</Link>
+                        <Link to="/" onClick={this.handleSelect} className="Brand">Ernest.</Link>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse>
-                    <Nav>
+                    <Nav pullRight={true} activeKey={this.state.key}
+                        onSelect={this.handleSelect}>
                         <NavItem eventKey={1} componentClass={Link} href="/projects" to="projects">
                             Projects
                         </NavItem>
