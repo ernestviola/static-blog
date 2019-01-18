@@ -57,19 +57,20 @@ export default class Home extends Component {
                 </div>
 
                 <div className="Introduction">
-                    <img src={Graduation}></img>
+                    <img alt="" src={Graduation}></img>
                     <h1>Hi, I'm Ernest</h1>
                     <span className="description">I'm an adventurer who's pationate about what the future holds. Currently I'm a volunteer who helps teach computer science to high school students. But I've always been a tinkerer and explorer at heart. I'm looking to propel my career into the world of software development and data sciences.</span>
                 </div>
-
-                <Row>
-                    <Col sm={6} md={4}>
-                        <div>
-                            <h2>Contact Me</h2>
-                            <p>For work inquiries or questions, send me an email</p> <a href="mailto:ernest.viol@gmail.com"><Button>Here!</Button></a>
-                        </div>
-                    </Col>
-                </Row>
+                <Grid>
+                    <Row>
+                        <Col sm={6} md={4}>
+                            <div>
+                                <h2>Contact Me</h2>
+                                <p>For work inquiries or questions, send me an email</p> <a href="mailto:ernest.viol@gmail.com"><Button>Here!</Button></a>
+                            </div>
+                        </Col>
+                    </Row>
+                </Grid>
 
             </div>
         )
