@@ -18,13 +18,14 @@ export default class CustomFooter extends Component {
                     </ul>
                     <ul className="InternalLinks">
                         <li>
-                            <a to="/projects">Projects </a>
+                            <Link href="/projects" to="projects">Projects </Link>
+
                         </li>
                         <li>
                             <a target="blank_" href={resume}>Resume </a>
                         </li>
                         <li>
-                            {(new Date().getFullYear())} © <a to="/">Ernest Viola</a>
+                            {(new Date().getFullYear())} © <Link href="/" to="/">Ernest Viola</Link>
                         </li>
                     </ul>
 
