@@ -12,6 +12,33 @@
     border-width: thin;
 }
 
-.FooterExternalLinks > div > a {
+.FooterLinks {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.FooterLinks > div > a {
     text-decoration: none;
+}
+
+.FooterLinks > ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.FooterLinks > ul > li {
+    display: inline;
+}
+
+.ExternalLinks {
+    left: 0px;
+    position: absolute;
+    
+}
+
+.InternalLinks {
+    right: 0px;
+    position: absolute;
+    margin-right: 100px;
 }
