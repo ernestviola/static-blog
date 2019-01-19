@@ -52,14 +52,19 @@ export default class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <div className="Quote">
+                <div className="Quote container">
                     <h2>{this.state.currentQuote}</h2>
                 </div>
 
                 <div className="Introduction">
                     <img alt="" src={Graduation}></img>
-                    <h1>Hi, I'm Ernest</h1>
-                    <span className="description">I'm an adventurer who's pationate about what the future holds. Currently I'm a volunteer who helps teach computer science to high school students. But I've always been a tinkerer and explorer at heart. I'm looking to propel my career into the world of software development and data sciences.</span>
+                    <div className="description">
+                        <div className="descriptionText">
+                            <h1>Hi, I'm Ernest</h1>
+                            <span>I'm an adventurer who's pationate about what the future holds. Currently I'm a volunteer who helps teach computer science to high school students. But I've always been a tinkerer and explorer at heart. I'm looking to propel my career into the world of software development and data sciences.</span>
+                        </div>
+
+                    </div>
                 </div>
                 <Grid>
                     <Row>

@@ -1,18 +1,22 @@
 .navbar-default  {
-    background-color: rgb(105, 0, 0);
-    border-color: rgb(105, 0, 0);
+    background-color: white;
+    border-color: white;
+    border-bottom-color: grey;
 }
 .navbar {
-    border: none;
     border-radius: 0;
     margin-bottom: 0;
 }
 
 .Brand, .navbar-brand{
-    color: white !important;
+    color: black !important;
     font-size: 50px;
 }
 
+.Brand:hover, .navbar-brand:hover{
+    color: grey !important;
+}
+
 .navbar-default .navbar-nav > li > a {
-    color: white;
+    color: black;
 }

@@ -1,17 +1,17 @@
 .Footer {
-    text-align: center;
+    vertical-align: 50%;
     position: absolute;
     bottom: 0;
     height: 120px;
     width: 100%;
-    color: white;
-    background-color: rgb(105, 0, 0);
+    color: black;
+    background-color: white;
+    border: solid;
+    border-color: white;
+    border-top-color: grey;
+    border-width: thin;
 }
 
 .FooterExternalLinks > div > a {
     text-decoration: none;
-}
-
-.FooterExternalLinks {
-    margin-top: 20px;
 }
