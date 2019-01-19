@@ -16,8 +16,7 @@ export default class CustomNavbar extends Component {
 
 
     handleSelect(key) {
-        // alert(`selected ${key}`);
-        if (key == 2) return;
+        if (key === 2) return;
         this.setState({ key });
     }
 
