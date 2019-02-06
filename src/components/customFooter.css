@@ -1,8 +1,9 @@
 .Footer {
+    text-align: center;
     vertical-align: 50%;
     position: absolute;
     bottom: 0;
-    height: 120px;
+    height: 300px;
     width: 100%;
     color: black;
     background-color: white;
@@ -12,33 +13,16 @@
     border-width: thin;
 }
 
-.FooterLinks {
-    margin: 0;
-    padding: 0;
-    display: inline;
-}
-
-.FooterLinks > div > a {
-    text-decoration: none;
-}
-
-.FooterLinks > ul {
+ul {
     list-style: none;
-    display: inline-block;
 }
 
-.FooterLinks > ul > li {
-    display: inline;
+.contact {
+    text-align: left;
 }
 
-.ExternalLinks {
-    left: 0px;
-    position: absolute;
-    
-}
-
-.InternalLinks {
-    right: 0px;
-    position: absolute;
-    margin-right: 100px;
+@media (max-width: 800px) {
+    .Footer {
+        height: 400px;
+    }
 }
