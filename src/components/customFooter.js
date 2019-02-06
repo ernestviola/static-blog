@@ -50,9 +50,9 @@ export default class CustomFooter extends Component {
                     </Row>
                     <hr />
                     <Row>
-                        <li>
-                            {(new Date().getFullYear())} © <Link href="/" to="/">Ernest Viola</Link>
-                        </li>
+
+                        {(new Date().getFullYear())} © <Link href="/" to="/">Ernest Viola</Link>
+
                     </Row>
                 </Grid>
             </div>
