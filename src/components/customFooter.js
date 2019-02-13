@@ -1,21 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Grid, Col, Row, Button } from 'react-bootstrap';
+import { Container, Col, Row } from 'react-bootstrap';
 import './customFooter.css';
 import resume from '../images/Resume.pdf';
+import ContactForm from './contactForm';
 export default class CustomFooter extends Component {
     render() {
         return (
             <div className="Footer">
-                <Grid>
-                    <Row className="contact">
-                        <Col sm={12} md={12}>
-                            <div>
-                                <h2>Contact Me</h2>
-                                <p>For work inquiries or questions, send me an email</p> <a href="mailto:ernest.viol@gmail.com"><Button>Here!</Button></a>
-                            </div>
-                        </Col>
-                    </Row>
+                <ContactForm />
+                <Container>
                     <Row>
                         <Col sm={6} md={6}>
                             <ul>
@@ -50,11 +44,13 @@ export default class CustomFooter extends Component {
                     </Row>
                     <hr />
                     <Row>
+                        <div>
+                            {(new Date().getFullYear())} © <Link href="/" to="/">Ernest Viola</Link>
+                        </div>
 
-                        {(new Date().getFullYear())} © <Link href="/" to="/">Ernest Viola</Link>
 
                     </Row>
-                </Grid>
+                </Container>
             </div>
         )
     }

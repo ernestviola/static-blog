@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavItem } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import resume from '../images/Resume.pdf';
 import './customNavbar.css';
@@ -23,25 +23,31 @@ export default class CustomNavbar extends Component {
 
     render() {
         return (
-            <Navbar>
-                <Navbar.Header>
-                    <Navbar.Brand>
-                        <Link to="/" onClick={this.handleSelect} className="Brand">Ernest.</Link>
-                    </Navbar.Brand>
-                    <Navbar.Toggle />
-                </Navbar.Header>
+            <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
+                <Navbar.Brand>
+                    <Link to="/" href="">Ernest.</Link>
+                </Navbar.Brand>
+                <Navbar.Toggle />
                 <Navbar.Collapse>
-                    <Nav pullRight={true} activeKey={this.state.key}
-                        onSelect={this.handleSelect}>
-                        <NavItem eventKey={1} componentClass={Link} href="/projects" to="projects">
-                            Projects
-                        </NavItem>
-                        <NavItem eventKey={2} href={resume} target="blank_">
-                            Resume
-                        </NavItem>
+                    <Nav>
+                        <Nav.Item >
+                            <Link to="/" href="/">Home.</Link>
+                        </Nav.Item>
+                        <Nav.Item >
+                            <Link to="/projects" href="/projects">Projects.</Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Link to={resume} href={resume} target="blank_">Resume.</Link>
+                        </Nav.Item>
                     </Nav>
+
+
+
                 </Navbar.Collapse>
             </Navbar>
+
+
+
         )
     }
 }

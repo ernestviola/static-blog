@@ -1,7 +1,9 @@
 .navbar-default  {
     background-color: white;
     border-color: white;
+    border-bottom-width: thin;
     border-bottom-color: grey;
+    border-bottom-style: solid;
 }
 .navbar {
     border-radius: 0;
@@ -19,4 +21,8 @@
 
 .navbar-default .navbar-nav > li > a {
     color: black;
+}
+
+a:hover {
+    text-decoration: none;
 }

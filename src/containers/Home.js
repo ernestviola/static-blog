@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button, Col, Row, Grid } from 'react-bootstrap';
+import { Button, Col, Row, Container } from 'react-bootstrap';
 import './Home.css';
 import Graduation from '../images/homeCarousel/Graduations-24.jpg';
 
@@ -67,7 +67,23 @@ export default class Home extends Component {
 
                     </div>
                 </div>
+                <div className="Projects">
+                    <Container>
+                        Here are some things that I've worked on in the past.
+                    <Row>
+                            <Col sm={12} md={6}>
+                                Project 1
+                        </Col>
+                            <Col sm={12} md={6} className="lastItem">
+                                Project 2
+                        </Col>
+
+                        </Row>
+                    </Container>
+                </div>
+
             </div>
+
         )
     }
 }

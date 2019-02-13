@@ -2,6 +2,10 @@
     text-align: left;
 }
 
+.Projects {
+    height: 500px;
+}
+
 .Quote {
     min-height: 100px;
     text-align: center;
