@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default class Projects extends Component {
     render() {
         return (
-            <div className="Projects">
+            <div className="Projects container">
                 <div>
                     <h3>Projects</h3>
                     <ul>

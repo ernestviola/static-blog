@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button, Col, Row, Grid } from 'react-bootstrap';
+import { Button, Col, Row, Container } from 'react-bootstrap';
 import './Home.css';
 import Graduation from '../images/homeCarousel/Graduations-24.jpg';
 
@@ -34,7 +34,8 @@ export default class Home extends Component {
                 "One who makes no mistakes makes nothing at all. - Giocomo Casanova",
                 "Don't waste your time on jealousy. Sometimes you're ahead, sometimes you're behind. The race is long and, in the end, it's only with yourself. - Baz Luhrmann",
                 "Do one thing everyday that scares you. - Eleanor Roosevelt",
-                "In the end it's not the years in your life that count; it's the life in your years. - Abraham Lincoln"
+                "In the end it's not the years in your life that count; it's the life in your years. - Abraham Lincoln",
+                "Great things are not done by impulse but by small things brought together. - Vincent van Gogh"
 
 
             ]
@@ -52,9 +53,9 @@ export default class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <div className="Quote container">
+                {/* <div className="Quote container">
                     <h2>{this.state.currentQuote}</h2>
-                </div>
+                </div> */}
 
                 <div className="Introduction">
                     <img alt="" src={Graduation}></img>
@@ -66,18 +67,23 @@ export default class Home extends Component {
 
                     </div>
                 </div>
-                <Grid>
+                <div className="Projects">
+                    <Container>
+                        Here are some things that I've worked on in the past.
                     <Row>
-                        <Col sm={6} md={4}>
-                            <div>
-                                <h2>Contact Me</h2>
-                                <p>For work inquiries or questions, send me an email</p> <a href="mailto:ernest.viol@gmail.com"><Button>Here!</Button></a>
-                            </div>
+                            <Col sm={12} md={6}>
+                                Project 1
                         </Col>
-                    </Row>
-                </Grid>
+                            <Col sm={12} md={6} className="lastItem">
+                                Project 2
+                        </Col>
+
+                        </Row>
+                    </Container>
+                </div>
 
             </div>
+
         )
     }
 }

@@ -2,6 +2,10 @@
     text-align: left;
 }
 
+.Projects {
+    height: 500px;
+}
+
 .Quote {
     min-height: 100px;
     text-align: center;
@@ -21,7 +25,7 @@
     float: left;
     object-fit: cover;
     width: 100%;
-    height: 390px;
+    height: 490px;
 }
 
 .description {

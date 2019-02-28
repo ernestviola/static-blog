@@ -1,0 +1,8 @@
+.contact {
+    text-align: left;
+    background-color: rgb(255, 230, 0);
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+    border-width: thin;
+    height: 200px;
+}
