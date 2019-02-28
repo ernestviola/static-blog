@@ -24,20 +24,21 @@ export default class CustomNavbar extends Component {
     render() {
         return (
             <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
-                <Navbar.Brand>
+                <Navbar.Brand >
                     <Link to="/" href="">Ernest.</Link>
                 </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse>
                     <Nav>
+
                         <Nav.Item >
-                            <Link to="/" href="/">Home.</Link>
+                            <Link className="nav-link" to="/">Home.</Link>
                         </Nav.Item>
                         <Nav.Item >
-                            <Link to="/projects" href="/projects">Projects.</Link>
+                            <Link className="nav-link" to="/projects" href="/projects">Projects.</Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Link to={resume} href={resume} target="blank_">Resume.</Link>
+                            <Link className="nav-link" to={resume} href={resume} target="blank_">Resume.</Link>
                         </Nav.Item>
                     </Nav>
 

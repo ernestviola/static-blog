@@ -3,7 +3,7 @@
     vertical-align: 50%;
     position: absolute;
     bottom: 0;
-    height: 500px;
+    height: auto;
     width: 100%;
     color: black;
     background-color: white;
@@ -15,10 +15,4 @@
 
 ul {
     list-style: none;
-}
-
-@media (max-width: 800px) {
-    .Footer {
-        height: 600px;
-    }
 }
