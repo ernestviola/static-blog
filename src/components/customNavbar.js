@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import resume from '../images/Resume.pdf';
-import './customNavbar.css';
+import './CustomNavbar.css';
 
 export default class CustomNavbar extends Component {
     constructor(props) {
