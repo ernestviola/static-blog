@@ -1,101 +1,42 @@
 import React, { Component } from 'react'
 import './ProjectCards.css';
 import { Card, CardColumns } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 export default class ProjectCards extends Component {
   render() {
     return (
       <div>
+        <h3>Projects</h3>
         <CardColumns>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
             <Card.Body>
-              <Card.Title>Card title that wraps to a new line</Card.Title>
+              <Card.Title><a href="https://github.com/ernestviola/RadioListening" target="blank_" rel="noopener noreferrer">Radio Listener</a></Card.Title>
               <Card.Text>
-                This is a longer card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
+                One of my favorite projects which used Google's Speech API, Twilio's API, Multithreading, and Python.
       </Card.Text>
             </Card.Body>
           </Card>
-          <Card className="p-3">
-            <blockquote className="blockquote mb-0 card-body">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                erat a ante.
-      </p>
-              <footer className="blockquote-footer">
-                <small className="text-muted">
-                  Someone famous in <cite title="Source Title">Source Title</cite>
-                </small>
-              </footer>
-            </blockquote>
-          </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title><a href="https://github.com/ernestviola/static-blog" target="blank_" rel="noopener noreferrer">ernestviola.com</a></Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to additional
-        content.{' '}
-              </Card.Text>
-            </Card.Body>
-            <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer>
-          </Card>
-          <Card bg="primary" text="white" className="text-center p-3">
-            <blockquote className="blockquote mb-0 card-body">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                erat a ante.
-      </p>
-              <footer className="blockquote-footer">
-                <small className="text-muted">
-                  Someone famous in <cite title="Source Title">Source Title</cite>
-                </small>
-              </footer>
-            </blockquote>
-          </Card>
-          <Card className="text-center">
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This card has supporting text below as a natural lead-in to additional
-        content.{' '}
-              </Card.Text>
-              <Card.Text>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card>
-            <Card.Img src="holder.js/100px160" />
-          </Card>
-          <Card className="text-right">
-            <blockquote className="blockquote mb-0 card-body">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                erat a ante.
-      </p>
-              <footer className="blockquote-footer">
-                <small className="text-muted">
-                  Someone famous in <cite title="Source Title">Source Title</cite>
-                </small>
-              </footer>
-            </blockquote>
-          </Card>
-          <Card>
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This card has even longer content than the first to
-                show that equal height action.
+                This website took me a bit of time to finally finish. This is my 3rd iteration of this site and definitley not the last. I'm continuously working on improving the styles and functionality of this site.
       </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
+            <Card.Body>
+              <Card.Title><Link to="/games/firemancatch">
+                Fireman Catch
+                                </Link></Card.Title>
               <Card.Text>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Text>
+                A video game made in unity for a game development class at San Diego State University
+      </Card.Text>
             </Card.Body>
           </Card>
         </CardColumns>
