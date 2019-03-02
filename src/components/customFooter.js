@@ -44,7 +44,7 @@ export default class CustomFooter extends Component {
                     </Row>
                     <hr />
                     <Row>
-                        <div>
+                        <div className="copyright">
                             {(new Date().getFullYear())} © <Link href="/" to="/">Ernest Viola</Link>
                         </div>
 

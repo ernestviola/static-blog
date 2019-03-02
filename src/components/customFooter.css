@@ -16,3 +16,8 @@
 ul {
     list-style: none;
 }
+
+.copyright {
+    text-align: center;
+    min-width: 100%;
+}
