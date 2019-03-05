@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import CustomNavbar from './components/customNavbar';
-import CustomFooter from './components/customFooter';
+import CustomNavbar from './components/CustomNavbar';
+import CustomFooter from './components/CustomFooter';
 import Routes from './Routes';
 import './App.css';
 

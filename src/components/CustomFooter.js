@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Col, Row } from 'react-bootstrap';
-import './customFooter.css';
+import './CustomFooter.css';
 import resume from '../images/Resume.pdf';
-import ContactForm from './contactForm';
+import ContactForm from './ContactForm';
 export default class CustomFooter extends Component {
     render() {
         return (
@@ -44,7 +44,7 @@ export default class CustomFooter extends Component {
                     </Row>
                     <hr />
                     <Row>
-                        <div>
+                        <div className="copyright">
                             {(new Date().getFullYear())} © <Link href="/" to="/">Ernest Viola</Link>
                         </div>
 
