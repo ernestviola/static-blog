@@ -1,9 +1,10 @@
 .Home {
     text-align: left;
+    background: #343a40!important;
 }
 
-.Projects {
-    /* height: 500px; */
+/* .Projects {
+    height: 500px;
 }
 
 .Quote {
@@ -38,4 +39,4 @@
 
 .descriptionText {
     margin: 15px;
-}
+}  */

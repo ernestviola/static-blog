@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Col, Row } from 'react-bootstrap';
 import './CustomFooter.css';
 import resume from '../images/Resume.pdf';
 import ContactForm from './ContactForm';
@@ -39,11 +38,6 @@ export default class CustomFooter extends Component {
     render() {
         return (
             <div className="Footer">
-
-                <ContactForm />
-                <Container>
-                    <Row>
-                        <Col sm={6} md={6}>
                             <ul>
                                 <li>
                                     <h3>Social Media</h3>
@@ -56,9 +50,6 @@ export default class CustomFooter extends Component {
                                     <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/ernestviola"> LinkedIn</a>
                                 </li>
                             </ul>
-
-                        </Col>
-                        <Col sm={6} md={6}>
                             <ul>
                                 <li>
                                     <h3>More Links</h3>
@@ -71,23 +62,9 @@ export default class CustomFooter extends Component {
                                     <a target="blank_" href={resume}>Resume </a>
                                 </li>
                             </ul>
-
-                        </Col>
-                    </Row>
-                    <hr />
-                    <Row>
-                        <div className="copyright">
+                            <div className="copyright">
                             {(new Date().getFullYear())} © <Link href="/" to="/">Ernest Viola</Link>
                         </div>
-
-
-                    </Row>
-                    <Row>
-                        <div className="Quote container">
-                            <p>{this.state.currentQuote}</p>
-                        </div>
-                    </Row>
-                </Container>
             </div>
         )
     }

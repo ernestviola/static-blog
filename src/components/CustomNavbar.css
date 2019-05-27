@@ -26,3 +26,8 @@
 a:hover {
     text-decoration: none;
 }
+
+.navbar, .navbar-expand-sm, .navbar-dark, .bg-dark {
+    background: #6d1010 !important;
+    
+}
