@@ -23,7 +23,7 @@ export default class CustomNavbar extends Component {
 
     render() {
         return (
-            <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
+            <Navbar className="container" collapseOnSelect expand="sm" bg="dark" variant="dark">
                 <Navbar.Brand >
                     <Link to="/" href="">Ernest.</Link>
                 </Navbar.Brand>

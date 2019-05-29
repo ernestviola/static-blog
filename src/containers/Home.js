@@ -26,6 +26,16 @@ export default class Home extends Component {
         return (
             <div className="Home container">
                 <h1>Hi, I'm Ernest & <span>{this.state.currentQuote}</span></h1>
+                <h4>READ</h4>
+                <ul>
+                    <li>Article 1</li>
+                    <li>Article 2</li>
+                </ul>
+                <h4>PROJECTS</h4>
+                <ul>
+                    <li>Project 1</li>
+                    <li>Project 2</li>
+                </ul>
             </div>
 
         )
